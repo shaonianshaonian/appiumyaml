@@ -1,0 +1,34 @@
+-
+ #点击我的
+ test_action: click
+ test_control_type: xpath
+ test_control_id: //android.widget.FrameLayout[@index='4']
+-
+#停顿两秒
+ test_action: sleep
+ test_value: 1
+-
+#点击电话服务元素
+ test_action: click
+ test_control_type: xpath
+ test_control_id: //android.support.v7.widget.RecyclerView[@index='1']//android.widget.FrameLayout[@index='2']
+-
+#停顿两秒
+ test_action: sleep
+ test_value: 2
+-
+#点击取消
+ test_action: click
+ test_control_type: xpath
+ test_control_id: //android.widget.FrameLayout[@index='0']//android.widget.LinearLayout[@index='0']//android.widget.LinearLayout[@index='2']//android.widget.TextView[@index='0']
+-
+#停顿两秒
+ test_action: sleep
+ test_value: 1
+-
+#检查页面
+ test_action: assert
+ test_assert_type: control
+ test_control_type: xpath
+ test_control_id: //android.widget.FrameLayout[@index='0']//android.widget.LinearLayout[@index='0']//android.support.v7.widget.RecyclerView[@index='1']//android.widget.FrameLayout[@index='2']
+ test_assert_result: yes
