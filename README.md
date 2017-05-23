@@ -73,6 +73,4 @@ Python3 + Appium1.4
 翻译层：该层顾名思义，提供了翻译上层用例的方法。这些方法能够读取指定文件夹下所有YAML格式的文件，并按文件生成对应的case，判断这些case的key值，去选择调用驱动层的具体方法。
 驱动层：该层对Appium常用的操作进行了封装，也增加了一些自定义的常用操作。通过调用Appium提供的接口达到UI自动化的目的。
 
-如需进一步了解其实现原理，请参看Demo源码。
-[源码地址戳我！](https://github.com/Gavin-Niubility/AppiumGS)
 # Appiumpython
